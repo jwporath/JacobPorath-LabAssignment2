@@ -1,0 +1,91 @@
+.sidebar 
+{
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.sidebar p 
+{
+    text-align: right;
+    font-family: "Bahnschrift";
+    padding-right: 20px;
+    padding-top: 50px;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #a8a8a8;
+}
+
+.sidebar ul
+{
+    list-style-type: none;
+}
+
+.sidebar ul li a
+{
+    text-align: right;
+    font-family: "Bahnschrift";
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #a8a8a8;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar li a:hover 
+{
+    color: #f1f1f1;
+}
+
+
+.main {
+    color: #a8a8a8;
+    margin-right: 100px;
+}
+
+#socialButtons
+{
+    margin-left: 90px;
+}
+
+#socialButtons a
+{
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    background-color: inherit;
+    background-size: cover;
+}
+
+#facebook
+{
+    background-image: url('facebook.png');
+}
+
+#twitter
+{
+    background-image: url('twitter.png');
+}
+
+#instagram
+{
+    background-image: url('instagram.png');
+}
+
+body
+{
+    background-color: black !important;
+}
+
+img
+{
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 33vh;
+    width: auto;
+}
